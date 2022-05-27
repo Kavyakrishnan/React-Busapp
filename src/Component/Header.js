@@ -18,7 +18,7 @@ const Header = () => {
           <Link class="nav-link" to="/search">Searchbus</Link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <Link class="nav-link" to="/view">View</Link>
         </li>
       </ul>
       

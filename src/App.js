@@ -6,15 +6,19 @@ import Addbus from './Component/Addbus';
 import Searchbus from './Component/Searchbus';
 import Header from './Component/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import View from './Component/View';
 
 function App() {
   return (
     <div >
+       
+
       <BrowserRouter>
       <Routes>
         <Route path="/"exact element={<Addbus/>}/>
         <Route path="/search"exact element={<Searchbus/>}/>
-
+        <Route path="/view" exact element={<View/>}/>
+  
       </Routes>
       </BrowserRouter>
      
